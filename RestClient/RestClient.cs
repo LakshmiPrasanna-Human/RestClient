@@ -24,6 +24,7 @@ namespace RestClient.HttpClientWrapper
             _baseAddress = baseAddress;
             _accessToken = accessToken;
 
+
         }
 
         public async Task<T> GetSingleItemRequest(HttpClient client, string apiUrl)
